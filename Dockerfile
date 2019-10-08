@@ -6,6 +6,7 @@ RUN apk --update --no-cache add \
     git \
     ncurses-dev \
     libxslt-dev \
+    libffi-dev \
     postgresql-dev \
     libjpeg-turbo-dev \
     ffmpeg \
