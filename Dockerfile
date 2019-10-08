@@ -14,6 +14,8 @@ RUN apk --update --no-cache add \
     file-dev \
     gcc
 
+RUN pip install --upgrade pip
+
 RUN pip install -U uwsgi
 
 RUN pip install numpy
