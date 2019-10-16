@@ -13,6 +13,9 @@ RUN apk --update --no-cache add \
     nodejs-npm \
     g++ \
     file-dev \
+    cairo-dev \
+    pango-dev \
+    gdk-pixbuf \
     gcc
 
 RUN pip install --upgrade pip
