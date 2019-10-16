@@ -16,7 +16,8 @@ RUN apk --update --no-cache add \
     cairo-dev \
     pango-dev \
     gdk-pixbuf \
-    gcc
+    gcc \
+    font-noto
 
 RUN pip install --upgrade pip
 
